@@ -50,3 +50,34 @@ while( l <= 10)
 //For loop use cases:
 //When number of iteration are fixed.
 //Example: Month dropdowns, Day dropdowns. 
+
+
+//Infite loop
+for(; ;)
+{
+    console.log("Welcome to Hotel Taj!")
+    break; //break the loop!
+}
+
+//do while loop
+
+do
+{
+    let p = 1; //error - p declared inside the loop and cannot be accessed outside the loop.
+    console.log(p)
+}
+while(p >=10)
+
+let q = 1;
+do
+{
+    console.log(q)
+    q++;
+}
+while(q <=10)
+
+//while condition is false then do part will not execute.
+//use case - do while - When number of iterations are not fixed.
+//waiting for the element but element is already available in the page.
+
+
