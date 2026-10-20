@@ -1,18 +1,10 @@
-let customer = {
-    name: "Virat",
-    age: 16,
-    location: "Chennai",
-
-    address: {
-        city: 'Chennai',
-        state: 'Tamil Nadu',
-        pincode: 600001
-    }
+function add(a = 10, b)
+{
+    return a + b
 }
 
-let newCustomer = structuredClone(customer)
+let value = add(undefined, 10) //undefined will trigger default parameter
+console.log(value)
 
-newCustomer.address.pincode = 890999
-console.log(newCustomer)
-console.log("*************")
-console.log(customer)
+value = add(null, 10)
+console.log(value)
