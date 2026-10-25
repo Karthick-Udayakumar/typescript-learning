@@ -16,3 +16,6 @@
 {
     console.log("Name is " + name)
 })('Karthick')
+
+
+(() => console.log('IIFE Login'))();
