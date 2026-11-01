@@ -2,6 +2,8 @@
 
 //(()=> annonymous function) () > calling the function.
 
+
+//An IIFE (Immediately Invoked Function Expression) is a JavaScript function that defines itself and executes immediately upon being created
 (()=> {
     console.log("Calling IIFE function")
 })();

@@ -71,4 +71,45 @@ console.log(j);
 let k = mumbaiIndiansTeam.indexOf('Rohit',3)
 console.log(k);
 
+//9 includes - Checks whether element exists in an array
 
+let l = [1,2,4,5,4]
+console.log(l.includes(2)); //returns boolean
+
+//10. join
+let appleProducts = ['iphone', 'imac']
+console.log(appleProducts.join('')); // array to string
+
+//11. split
+let iphone = 'Latestversion'
+console.log(iphone.split()); // converts string to array
+
+//12.toString()
+let arr = ['apple', 'mango']
+console.log(arr.toString()); //array to string with comma seperated.
+
+//13. at
+let run = [3,4,2,2,4]
+console.log(run.at(1)); //provides the value present in the index
+console.log(run.at(-1)); //supports negative index like slice
+
+//14. forEach method
+let appleProduct = ['iphone', 'imac','macbook']
+
+appleProduct.forEach(e => {
+    console.log(e.toUpperCase());
+}
+)
+
+appleProduct.forEach(e =>{
+console.log(e);
+}
+)
+
+let num = [3,5,6,3,3]
+let results = num.forEach(e => {
+    if(e > 4)
+    {
+        console.log(e*2)
+    }
+    })
