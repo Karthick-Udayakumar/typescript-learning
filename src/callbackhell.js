@@ -1,6 +1,6 @@
 //callbackhell -> Pyramid of doom
 //When you have many asynchronous tasks dependent on one another
-//forcing you to nest callbacks deepinside the callbacks
+//forcing you to nest callbacks deep inside the callbacks
 
 function startMachine(callback)
 {
